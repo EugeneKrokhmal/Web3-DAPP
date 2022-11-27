@@ -1,0 +1,1 @@
+Simple application to transfer ERC20 Tokens (Test assignment)

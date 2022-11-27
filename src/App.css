@@ -1,0 +1,5 @@
+body {
+  height: 75vh;
+  display: grid;
+  place-content: center;
+}
