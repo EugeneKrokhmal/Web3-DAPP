@@ -5,7 +5,7 @@ import { AccountInfo, SendTokenFormUI } from './FormComponents';
 import abi from '../ABI.json';
 
 const SendTokenForm = () => {
-    const tokenAddress = '0xE72c69b02B4B134fb092d0D083B287cf595ED1E6';
+    const tokenAddress = process.env.REACT_APP_TOKEN_ADDRESS;
     const {
         account,
         tokenBalance,
